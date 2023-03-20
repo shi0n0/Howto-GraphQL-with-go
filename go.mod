@@ -7,6 +7,8 @@ require (
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
+require github.com/mattes/migrate v3.0.1+incompatible // indirect
+
 require (
 	cloud.google.com/go v0.99.0 // indirect
 	cloud.google.com/go/spanner v1.28.0 // indirect
@@ -48,6 +50,7 @@ require (
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gocql/gocql v0.0.0-20210515062232-b7ef815b4556 // indirect
 	github.com/golang-jwt/jwt/v4 v4.1.0 // indirect
+	github.com/golang-migrate/migrate v3.5.4+incompatible
 	github.com/golang-migrate/migrate/v4 v4.15.2 // indirect
 	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
